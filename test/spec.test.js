@@ -1,6 +1,3 @@
-
-describe('My first test', ()=>{
-    it('should pass', ()=>{
-        expect(true).to.equal(true);
-    });
+test(`add 2 + 2`, ()=>{
+    expect(true).toEqual(true);
 });
